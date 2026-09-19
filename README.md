@@ -1,25 +1,32 @@
-# Quiz Score Saver
+# Quiz Score Saver 🎯
 
-A simple Python quiz program that asks the user multiple questions, checks their answers, and displays the final score.
+A simple Python quiz application that asks multiple-choice questions and calculates the user's final score and percentage.
 
 ## Features
 
-* Takes the user's name
-* Asks multiple quiz questions
-* Checks answers automatically
-* Displays "Correct!" or "Wrong!"
-* Calculates the final score
-* Shows the total number of questions
+* 👤 Takes the user's name
+* ❓ Multiple-choice questions
+* ✅ Checks answers automatically
+* 📊 Calculates the final score
+* 📈 Calculates percentage
+* 🏆 Displays a performance message
+* 🔢 Shows question numbers
 
 ## Technologies Used
 
-* Python 3.x
+* Python
 
 ## How to Run
 
-1. Make sure Python is installed on your computer.
-2. Open the project folder in Command Prompt or VS Code.
-3. Run the program using:
+1. Download or clone the repository.
+2. Open Command Prompt.
+3. Go to the project folder:
+
+```bash
+cd "D:\Python_learning\Quiz score saver"
+```
+
+4. Run the program:
 
 ```bash
 python quiz_score_saver.py
@@ -28,34 +35,33 @@ python quiz_score_saver.py
 ## Example
 
 ```text
-==== Quiz Score Saver ====
+===== QUIZ SCORE SAVER =====
+
 Enter your name: Riddhi
 
-What is the capital of India? Delhi
+Question 1: What is the capital of India?
+A. Mumbai
+B. Delhi
+C. Pune
+D. Chennai
+
+Enter your answer (A/B/C/D): B
 Correct!
 
-Which language are we learning? Python
-Correct!
-
-How many days are there in a week? 7
-Correct!
-
-===== RESULT =====
+===== QUIZ RESULT =====
 Name: Riddhi
-Score: 3 / 3
+Score: 5 / 5
+Percentage: 100.0 %
+Excellent! Perfect score!
 ```
 
-## Learning Concepts
+## Future Improvements
 
-This project helped me practice:
-
-* Variables
-* User input
-* Lists and tuples
-* `for` loops
-* `if-else` statements
-* String methods like `lower()` and `strip()`
-* Basic score calculation
+* Add more questions
+* Add different quiz categories
+* Store previous scores
+* Add a timer
+* Add difficulty levels
 
 ## Author
 
